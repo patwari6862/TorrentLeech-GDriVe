@@ -65,9 +65,9 @@ async def aria_start():
     LOGGER.info(stderr)
     aria2 = aria2p.API(
         aria2p.Client(
-            host="http://localhost",
+            host="http://jsonrpc",
             port=ARIA_TWO_STARTED_PORT,
-            secret=""
+            secret="5598"
         )
     )
     return aria2
