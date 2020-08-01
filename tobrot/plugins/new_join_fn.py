@@ -33,12 +33,12 @@ async def new_join_f(client, message):
 
 
 async def help_message_f(client, message):
-    # await message.reply_text("no one gonna help you 🤣🤣🤣🤣", quote=True)
+    # await message.reply_text("Contact with 🤙🏻admin or check 📌 pin msg", quote=True)
     #channel_id = str(AUTH_CHANNEL)[4:]
     #message_id = 99
     # display the /help
     
-    await message.reply_text("""Ask Here for any support > @MovieZoNlysuPPorT""", disable_web_page_preview=True)
+    await message.reply_text("""Ask Here for any support > @Filmyflx""", disable_web_page_preview=True)
 
 
 async def rename_message_f(client, message):
@@ -46,7 +46,7 @@ async def rename_message_f(client, message):
     inline_keyboard.append([
         pyrogram.InlineKeyboardButton(
             text="Read This for help!",
-            url="https://t.me/MoVieZoNlySupPoRt/4016"
+            url="https://t.me/c/1335349676/1498"
         )
     ])
     reply_markup = pyrogram.InlineKeyboardMarkup(inline_keyboard)
